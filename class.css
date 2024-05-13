@@ -234,6 +234,6 @@ button{
     margin: 0px;
     padding-top: 15px;
     color: rgb(255, 255, 255);
-    opacity: 50%;
+    opacity:0%;
     transition: opacity 1s ease; /* Smooth transition for opacity change */
 }
