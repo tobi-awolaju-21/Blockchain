@@ -123,14 +123,7 @@ li {
     margin: 5px;
 }
 
-button{
-    border: none;
-    border-radius: 10px;
-    background-color: #1338bc;
-    color: #ffffff;
-    padding: 10px;
-    margin: 5px;
-}
+
 
 
 .experience {
@@ -183,7 +176,7 @@ align-content: center;
     text-align: center;
     align-content:center;
     margin: 10px;
-    width:50%;
+    width:40%;
 }
 
 .pfp4{
@@ -197,7 +190,8 @@ align-content: center;
 
 
 .email {
-    width: 50%;
+    margin: 0px;
+    width:50vw;
     padding: 10px;
     margin-bottom: 10px;
     border:none;
@@ -207,7 +201,8 @@ align-content: center;
 }
 
 .name {
-    width: 30%;
+    margin: 0px;
+    width: 25vw;
     padding: 10px;
     margin-bottom: 10px;
     border:none;
@@ -216,8 +211,8 @@ align-content: center;
     color: #ffffff;
 }
 .message {
-    width: 80%;
-    height:100px;
+    margin: 0px;
+    width: 50vw;
     padding: 10px;
     margin-bottom: 10px;
     border:none;
@@ -225,12 +220,20 @@ align-content: center;
     background-color: #34353a;
     color: #ffffff;
 }
+button{
+    margin: 0px;
+    width: 30vw;
+    border: none;
+    border-radius: 10px;
+    background-color: #1338bc;
+    color: #ffffff;
+    padding: 10px;
+}
 
 .footies{
-    position:fixed;
-    bottom: 0px;
     margin: 0px;
     padding-top: 15px;
     color: rgb(255, 255, 255);
     opacity: 50%;
+    transition: opacity 1s ease; /* Smooth transition for opacity change */
 }
