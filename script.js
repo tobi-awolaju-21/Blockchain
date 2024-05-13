@@ -47,4 +47,39 @@ function redirectToTwitter() {
 }
 
 
+//send mail
+document.getElementById("sendmail").addEventListener("click", function() {
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var message = document.getElementById("message").value;
+
+    // You can perform validation here if needed
+
+    // Create a data object to send to the server
+    var data = {
+        name: name,
+        email: email,
+        message: message
+    };
+
+    // Send the data to the server using fetch API or XMLHttpRequest
+    fetch("https://blockchain-backend-e394.onrender.com/", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(data)
+    })
+    .then(response => {
+        if (response.ok) {
+            alert("Email sent successfully!");
+        } else {
+            alert("Error sending email. Please try again later.");
+        }
+    })
+    .catch(error => {
+        console.error("Error:", error);
+        alert("Error sending email. Please try again later.");
+    });
+});
 
