@@ -123,6 +123,15 @@ li {
     margin: 5px;
 }
 
+button{
+    border: none;
+    border-radius: 10px;
+    background-color: #1338bc;
+    color: #ffffff;
+    padding: 10px;
+    margin: 5px;
+}
+
 
 .experience {
     height: auto;
@@ -137,6 +146,14 @@ li {
 .contact {
     height: 95vh;
     padding: 20px;
+}
+.contact_mom{
+margin: 0px;
+width: 100%;
+height: 100%;
+text-align: center;
+align-content: center;
+
 }
 
 
@@ -166,9 +183,54 @@ li {
     text-align: center;
     align-content:center;
     margin: 10px;
+    width:50%;
 }
+
 .pfp4{
     width:100%;
     margin: 0px;
     padding: 0px;
+}
+
+
+
+
+
+.email {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border:none;
+    border-radius:10px;
+    background-color: #34353a;
+    color: #ffffff;
+}
+
+.name {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border:none;
+    border-radius:10px;
+    background-color: #34353a;
+    color: #ffffff;
+}
+.message {
+    width: 80%;
+    height:100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border:none;
+    border-radius:10px;
+    background-color: #34353a;
+    color: #ffffff;
+}
+
+.footies{
+    position:fixed;
+    bottom: 0px;
+    margin: 0px;
+    padding-top: 15px;
+    color: rgb(255, 255, 255);
+    opacity: 50%;
 }

@@ -1,10 +1,16 @@
 var viewportHeight = window.innerHeight/3;
+var totalHeight = document.body.scrollHeight*0.55;
 
 window.addEventListener('scroll', function() {
     var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
     var newOpacity = 1 - (scrollTop / viewportHeight); // Adjust the value 200 to control when the opacity starts to fade
     newOpacity = Math.min(1, Math.max(0, newOpacity)); // Ensure opacity stays between 0 and 1
     document.querySelector('.headies').style.opacity = newOpacity;
+
+    
+    var newOpacity = (scrollTop / totalHeight) - 1; // Adjust the value 200 to control when the opacity starts to fade
+    newOpacity = Math.min(Math.max(0, newOpacity),1); 
+    document.querySelector('.footies').style.opacity = newOpacity;
 });
 
 function redirectToGitHub() {
