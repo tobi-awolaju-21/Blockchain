@@ -16,7 +16,7 @@ h1 {
 h2 {
     font-size:25px;
     color: #ffffff;
-    margin: 0px;
+    margin: 10px;
     font-weight: 300;
 }
 
@@ -155,7 +155,7 @@ li {
 
 @media only screen and (max-width: 767px) {
     .grid-container {
-        grid-template-columns: repeat(4, 1fr); /* 4 equal columns for mobile */
+        grid-template-columns: repeat(3, 1fr); /* 4 equal columns for mobile */
         grid-auto-rows: calc(25vw - 10px); /* Setting height equal to width */
     }
 }
