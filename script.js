@@ -14,3 +14,11 @@ function redirectToGitHub() {
     // Open the URL in a new tab
     window.open(url, '_blank');
 }
+
+function redirectToLinkedIn() {
+    // Define the URL you want to redirect to
+    var url = 'https://www.linkedin.com/in/awolaju/';
+    
+    // Open the URL in a new tab
+    window.open(url, '_blank');
+}

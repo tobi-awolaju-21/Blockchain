@@ -39,10 +39,7 @@ h4 {
 p {
     color: #ffffff85;
     margin: 0px;
-    padding: 10px;
-    font-size: 20px;
-    line-height: 25px;
-    font-weight: 200;
+    margin-bottom:10px;
 }
 li {
     color: #ffffff85;
@@ -145,16 +142,29 @@ li {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 5 equal columns */
-    grid-auto-rows: calc(20vw - 10px); /* Setting height equal to width */
     grid-gap: 10px; /* gap between grid items */
     padding: 0px; /* padding around the grid */
 }
+
+@media only screen and (min-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(8, 1fr); /* 8 equal columns for desktop */
+        grid-auto-rows: calc(12.5vw - 10px); /* Setting height equal to width */
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .grid-container {
+        grid-template-columns: repeat(4, 1fr); /* 4 equal columns for mobile */
+        grid-auto-rows: calc(25vw - 10px); /* Setting height equal to width */
+    }
+}
+
+
 .grid-item {
     padding: 10px;
     text-align: center;
     align-content:center;
-    opacity: 65%;
     margin: 10px;
 }
 .pfp4{
