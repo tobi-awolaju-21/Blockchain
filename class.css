@@ -37,17 +37,15 @@ h4 {
 }
 
 p {
-    color: #ffffff85;
+    color: #ffffffc0;
     margin: 0px;
     margin-bottom:10px;
 }
 li {
-    color: #ffffff85;
+    color: #ffffffe4;
     margin: 0px;
     padding: 5px;
-    font-size: 20px;
-    line-height: 25px;
-    font-weight: 200;
+    font-size: 16px;
 }
 
 .splash {
