@@ -28,3 +28,23 @@ function redirectToLinkedIn() {
     // Open the URL in a new tab
     window.open(url, '_blank');
 }
+
+function redirectToMedium() {
+       // Define the URL you want to redirect to
+       var url = 'https://medium.com/@tobiawolaju21';
+    
+       // Open the URL in a new tab
+       window.open(url, '_blank'); 
+}
+
+
+function redirectToTwitter() {
+    // Define the URL you want to redirect to
+    var url = 'https://twitter.com/sidotart';
+ 
+    // Open the URL in a new tab
+    window.open(url, '_blank'); 
+}
+
+
+
