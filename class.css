@@ -1,0 +1,164 @@
+body {
+    background-color: #101320;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size:50px;
+    margin: 0px;
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+h2 {
+    font-size:25px;
+    color: #ffffff;
+    margin: 0px;
+    font-weight: 300;
+}
+
+h3 {
+    font-size:25px;
+    color: #ffffff;
+    margin: 0px;
+    font-weight:500;
+    margin-bottom: 20px;
+}
+
+
+h4 {
+    font-size:20px;
+    color: #ffffff;
+    margin: 0px;
+    font-weight:500;
+}
+
+p {
+    color: #ffffff85;
+    margin: 0px;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 200;
+}
+li {
+    color: #ffffff85;
+    margin: 0px;
+    padding: 5px;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 200;
+}
+
+.splash {
+    align-content: center;
+    text-align: center;
+    height: 100vh;
+    background-color: #1338bc;
+    
+}
+
+.headies {
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    opacity: 1;
+    transition: opacity 0.5s ease; /* Smooth transition for opacity change */
+}
+
+
+.pfp {
+    width: 70px;
+    height: 70px; /* Set height to match width for a more consistent shape */
+    border-radius: 90% 70% 80% 80% / 60% 50% 90% 80%; /* Customize border radius values */
+}
+
+
+.pfp2{
+    width:40px;
+    margin: 0px;
+    padding: 0px;
+    transform: translateY(-10px);
+}
+.pfp3{
+    width:40px;
+    margin: 0px;
+    padding: 0px;
+    transform: translateY(-6px);
+}
+
+.about {
+    height:auto;
+    padding: 20px;
+}
+
+.projects {
+    height: auto;
+    padding: 20px;
+}
+.box{
+    margin-bottom: 10px;
+    text-align: right;
+}
+.projectimg{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.sourceb {
+    border: none;
+    border-radius: 10px;
+    background-color: #34353a;
+    color: #ffffff;
+    padding: 8px;
+}
+
+.tryb {
+    border: none;
+    border-radius: 10px;
+    background-color: #1338bc;
+    color: #ffffff;
+    padding: 8px;
+    margin: 5px;
+}
+
+
+.experience {
+    height: auto;
+    padding: 20px;
+}
+
+.skills {
+    height: auto;
+    padding: 20px;
+}
+
+.contact {
+    height: 95vh;
+    padding: 20px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 5 equal columns */
+    grid-auto-rows: calc(20vw - 10px); /* Setting height equal to width */
+    grid-gap: 10px; /* gap between grid items */
+    padding: 0px; /* padding around the grid */
+}
+.grid-item {
+    padding: 10px;
+    text-align: center;
+    align-content:center;
+    opacity: 65%;
+    margin: 10px;
+}
+.pfp4{
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+}
