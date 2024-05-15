@@ -21,11 +21,11 @@ h2 {
 }
 
 h3 {
-    font-size:30px;
-    color: #a2b6ff;
+    font-size:25px;
+    color: #ffffff;
     margin: 0px;
     font-weight:500;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 
@@ -33,6 +33,7 @@ h4 {
     font-size:20px;
     color: #ffffff;
     margin: 0px;
+    margin-bottom: 10px;
     font-weight:500;
 }
 
@@ -96,7 +97,7 @@ li {
 .projects {   
     opacity: 0%;
     height: auto;
-    padding: 20px;
+    padding:40px;
     transition: opacity 0.5s ease; /* Smooth transition for opacity change */
 }
 .box{
