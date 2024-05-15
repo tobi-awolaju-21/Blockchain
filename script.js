@@ -11,7 +11,37 @@ window.addEventListener('scroll', function() {
     var newOpacity = (scrollTop / totalHeight) - 1; // Adjust the value 200 to control when the opacity starts to fade
     newOpacity = Math.min(Math.max(0, newOpacity),1); 
     document.querySelector('.footies').style.opacity = newOpacity;
+
+    var newOpacity = (scrollTop / totalHeight*20) - 1; // Adjust the value 200 to control when the opacity starts to fade
+    newOpacity = Math.min(Math.max(0, newOpacity),1); 
+    document.querySelector('.about').style.opacity = newOpacity;
+
+
+    var newOpacity = (scrollTop / totalHeight*6) - 1; // Adjust the value 200 to control when the opacity starts to fade
+    newOpacity = Math.min(Math.max(0, newOpacity),1); 
+    document.querySelector('.projects').style.opacity = newOpacity;
+
+
+    var newOpacity = (scrollTop / totalHeight*3) - 1; // Adjust the value 200 to control when the opacity starts to fade
+    newOpacity = Math.min(Math.max(0, newOpacity),1); 
+    document.querySelector('.experience').style.opacity = newOpacity;
+
+    var newOpacity = (scrollTop / totalHeight*2) - 1; // Adjust the value 200 to control when the opacity starts to fade
+    newOpacity = Math.min(Math.max(0, newOpacity),1); 
+    document.querySelector('.skills').style.opacity = newOpacity;
+
 });
+
+
+
+
+
+
+
+
+
+
+
 
 function redirectToGitHub() {
     // Define the URL you want to redirect to
