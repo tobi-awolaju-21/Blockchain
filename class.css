@@ -107,11 +107,13 @@ li {
 
 .sourceb {
     border: none;
-    border-radius: 10px;
+    border-radius: 100px;
     background-color: #34353a;
     color: #ffffff;
     padding: 8px;
+    width: auto;
 }
+
 
 .tryb {
     border: none;
@@ -240,3 +242,20 @@ button{
     100% { opacity: 1; }
   }
   
+
+  .tag{
+    background-color: #1338bc;
+    color: #ffffff;
+    border-radius: 100px;
+    padding:5px;
+    text-decoration: none;
+  }
+
+  
+  .tag2{
+    background-color: #bc135f;
+    color: #ffffff;
+    border-radius: 100px;
+    padding:5px;
+    text-decoration: none;
+  }
