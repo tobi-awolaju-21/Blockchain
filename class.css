@@ -37,7 +37,8 @@ h4 {
 }
 
 p {
-    color: #ffffffc0;
+    
+    color: #ffffffc4;
     margin: 0px;
     margin-bottom:10px;
 }
@@ -249,13 +250,6 @@ button{
     border-radius: 100px;
     padding:5px;
     text-decoration: none;
+    color: #ffffffc4;
   }
 
-  
-  .tag2{
-    background-color: #bc135f;
-    color: #ffffff;
-    border-radius: 100px;
-    padding:5px;
-    text-decoration: none;
-  }
