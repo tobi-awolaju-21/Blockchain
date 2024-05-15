@@ -6,7 +6,7 @@ body {
 
 h1 {
     color: #ffffff;
-    font-size:50px;
+    font-size:40px;
     margin: 0px;
     padding: 20px;
     font-family: sans-serif;
@@ -21,8 +21,8 @@ h2 {
 }
 
 h3 {
-    font-size:25px;
-    color: #ffffff;
+    font-size:30px;
+    color: #a2b6ff;
     margin: 0px;
     font-weight:500;
     margin-bottom: 20px;
@@ -37,8 +37,7 @@ h4 {
 }
 
 p {
-    
-    color: #ffffffc4;
+    color: #ffffffc0;
     margin: 0px;
     margin-bottom:10px;
 }
@@ -53,7 +52,7 @@ li {
     align-content: center;
     text-align: center;
     height: 100vh;
-    background-color: #1338bc;
+    background-color: #000000;
     
 }
 
@@ -245,11 +244,13 @@ button{
   
 
   .tag{
-    background-color: #2b2f43;
-    color: #ffffff;
+    background-color: #000;
     border-radius: 100px;
-    padding:5px;
+    padding:2.5px;
+    padding-left:5px;
+    padding-right:5px;
     text-decoration: none;
-    color: #ffffffc4;
+    color: #ffffff;
+    font-weight: 100;
   }
 
