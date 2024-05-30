@@ -1,3 +1,23 @@
+@font-face {
+    font-family: "CalibreSemibold";
+    src: url("/fonts/CalibreSemibold.otf") format("opentype");
+  }
+
+
+  @font-face {
+    font-family: "SourceSerif4";  
+    src: url("/fonts/SourceSerif4.ttf") format("opentype");
+
+  }
+
+  @font-face {
+    font-family: "BagelFatOne";  
+    src: url("./fonts/BagelFatOne-Regular.ttf") format("opentype");
+
+  }
+  
+  
+
 body {
     background-color: #101320;
     margin: 0px;
@@ -5,8 +25,9 @@ body {
 }
 
 h1 {
+    font-family: "CalibreSemibold";
+    font-size: clamp(3rem, 20vw, 4rem);
     color: #ffffff;
-    font-size:40px;
     margin: 0px;
     padding: 20px;
     font-family: sans-serif;
