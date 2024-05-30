@@ -19,7 +19,7 @@
   
 
 body {
-    background-color: #ffffff;
+    background-color: #fff0b5;
     margin: 0px;
     padding: 0px;
 }
@@ -27,7 +27,7 @@ body {
 h1 {
     font-family: "CalibreSemibold";
     font-size: clamp(3rem, 20vw, 4rem);
-    color: #ffffff;
+    color: #ffd8ab;
     margin: 0px;
     padding: 20px;
     font-family: sans-serif;
