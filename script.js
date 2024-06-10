@@ -54,7 +54,7 @@ function redirectToMedium() {
 
 function redirectToTwitter() {
     // Define the URL you want to redirect to
-    var url = 'https://twitter.com/sidotart';
+    var url = 'https://twitter.com/TobiAwolaju';
  
     // Open the URL in a new tab
     window.open(url, '_blank'); 
